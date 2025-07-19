@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(9, 9, 131);
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* White text */
+    text-shadow: 0 0 10px #66fcf1; /* Neon glow */
+}
+
+.contact-me {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    color:greenyellow
+}
+
+.contact-me h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:rgb(248, 188, 198); /* White text */
+}
+
+.lets-work-together {
+    margin-bottom: 40px;
+}
+
+.lets-work-together h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:orange
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.email, .phone-number {
+    margin-bottom: 20px;
+}
+
+.email i, .phone-number i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.email a, .phone-number span {
+    font-size: 18px;
+    color: #ffffff; /* White text */
+    text-decoration: none;
+}
+
+.social-media-links {
+    margin-top: 40px;
+}
+
+.social-media-links a {
+    margin: 0 10px;
+    font-size: 32px;
+    color: red;
+}

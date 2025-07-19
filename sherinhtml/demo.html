@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // input = prompt('enter your name');
+    // console.log(input);
+    // n = confirm(`r u ${input}`);
+    // console.log(n);
+    function add(var1,var2){
+        console.log(var1+var2);
+    }
+    add(10,20);
+    let obj = {
+        name :'sherin',
+        age : 21,
+    }
+    console.log(obj);
+    let veges = ['carrot','beetroot'];
+    console.log(veges);
+    for(v in veges){
+        console.log(veges[v]); //(v)
+    }
+class user{
+    constructor(name,age){
+        this.name = name;
+        this.age = age;
+    }
+    display(){
+        console.log('Name :',this.name);
+        console.log('age :',this.age);
+    }
+}
+let ob = new user('sherin',21);
+console.log(ob.name);
+ob.display();
+
+</script>
+<body bgcolor="yellow">
+    <h1>WELCOME <center></center></h1>
+</body>
+</html> 

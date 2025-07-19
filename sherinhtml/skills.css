@@ -1,0 +1,125 @@
+#skills {
+    padding: 110px 0px;
+    background-color: #3a3a3a;
+    color:white;
+}
+
+.skills-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    padding-top: 10px;
+    color:rgb(241, 98, 146)
+}
+
+.technical-skills, .professional-skills {
+    width: 30%;
+}
+
+.technical-skills h2, .professional-skills h2 {
+    margin-bottom: 20px;
+}
+
+.technical-skills ul {
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+}
+
+.technical-skills li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.technical-skills li span {
+    width: 100px;
+    font-size: larger;
+    text-shadow: 0 0 10px #66fcf1; /* Neon glow */
+}
+
+.progress-bar {
+    width: 200px;
+    height: 10px;
+    background-color: #c9bdbd;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.progress {
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    font-size: larger;
+}
+wait
+.professional-skills .skill-circle {
+    display: flex;
+    justify-content: space-between;
+    color: #f5f0f0;
+    font-size: larger;
+}
+
+.circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    padding-right: 40px;
+}
+
+.circle svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.circle svg circle {
+    fill: none;
+    stroke-width: 10;
+    stroke: #f7e70e;
+}
+
+.circle svg .progress-circle {
+    stroke: #6119d4;
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+}
+
+::-webkit-validation-bubble
+.professional-skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size:x-large;
+}
+
+.professional-skills li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    text-shadow: 0 0 10px #66fcf1; /* Neon glow */
+}
+
+.professional-skills li span {
+    width: 150px;
+}
+
+.professional-skills .progress-bar {
+    width: 200px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.professional-skills .progress {
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
